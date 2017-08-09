@@ -1,0 +1,94 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "admob-demo-app-ionic",
+        "scope": null,
+        "escapedName": "admob-demo-app-ionic",
+        "name": "admob-demo-app-ionic",
+        "rawSpec": "",
+        "spec": "latest",
+        "type": "tag"
+      },
+      "/Users/chen/Documents/GitHub/phonegap/tmp/node_modules"
+    ]
+  ],
+  "_from": "admob-demo-app-ionic@latest",
+  "_id": "admob-demo-app-ionic@1.0.0",
+  "_inCache": true,
+  "_location": "/admob-demo-app-ionic",
+  "_nodeVersion": "0.12.2",
+  "_npmUser": {
+    "name": "floatinghotpot",
+    "email": "rjfun.mobile@gmail.com"
+  },
+  "_npmVersion": "2.9.0",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "admob-demo-app-ionic",
+    "scope": null,
+    "escapedName": "admob-demo-app-ionic",
+    "name": "admob-demo-app-ionic",
+    "rawSpec": "",
+    "spec": "latest",
+    "type": "tag"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/admob-demo-app-ionic/-/admob-demo-app-ionic-1.0.0.tgz",
+  "_shasum": "9e2600bac9313dedb244d71b555d991cccea7ab8",
+  "_shrinkwrap": null,
+  "_spec": "admob-demo-app-ionic",
+  "_where": "/Users/chen/Documents/GitHub/phonegap/tmp/node_modules",
+  "author": {
+    "name": "Liming Xie"
+  },
+  "bugs": {
+    "url": "https://github.com/floatinghotpot/admob-demo-app-ionic/issues"
+  },
+  "cordova": {
+    "id": "admob-demo-app-ionic",
+    "platforms": [
+      "android",
+      "ios",
+      "wp8",
+      "windows"
+    ]
+  },
+  "dependencies": {},
+  "description": "Demo app for Cordova AdMob plugin, using ionic framework",
+  "devDependencies": {},
+  "directories": {},
+  "dist": {
+    "shasum": "9e2600bac9313dedb244d71b555d991cccea7ab8",
+    "tarball": "https://registry.npmjs.org/admob-demo-app-ionic/-/admob-demo-app-ionic-1.0.0.tgz"
+  },
+  "gitHead": "df31938acb4b7bd89f1a65f5a1d313e6ca7e0945",
+  "homepage": "https://github.com/floatinghotpot/admob-demo-app-ionic#readme",
+  "keywords": [
+    "cordova",
+    "ecosystem:cordova",
+    "ad",
+    "admob",
+    "google",
+    "rjfun"
+  ],
+  "license": "MIT",
+  "maintainers": [
+    {
+      "name": "floatinghotpot",
+      "email": "rjfun.mobile@gmail.com"
+    }
+  ],
+  "name": "admob-demo-app-ionic",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/floatinghotpot/admob-demo-app-ionic.git"
+  },
+  "scripts": {},
+  "version": "1.0.0"
+}

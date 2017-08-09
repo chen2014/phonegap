@@ -1,0 +1,41 @@
+/* !!! IMPORTANT: Rename "mymodule" below and add your module to Angular Modules above. */
+
+angular.module('slider', [])
+.controller('tabsController.test', function($scope, $timeout) {
+  
+  $scope.data1 = { 'volume' : '27' };
+  $scope.data2 = { 'volume' : '50' };
+  $scope.data3 = { 'volume' : '40' };
+  
+    var timeoutId1 = null;
+    var timeoutId2 = null;
+    var timeoutId3 = null;
+    
+    $scope.$watch('data1.volume', function() {
+        console.log('Has changed');
+        if(timeoutId1 !== null) {
+            console.log('Ignoring this movement');
+            return;
+        }
+        console.log('Not going to ignore this one');
+        timeoutId1 = $timeout( function() {        
+            console.log('It changed recently!');
+            $timeout.cancel(timeoutId1);
+            timeoutId1 = null;
+            // Now load data from server 
+        }, 1000); 
+    });
+    
+ //$scope.$watch('data1.volume', function(val) {
+ //   console.log('data1 changed: ', val);
+  //});
+  $scope.$watch('data2.volume', function(val) {
+    console.log('data2 changed: ', val); 
+    
+  });
+  $scope.$watch('data3.volume', function(val) {
+    console.log('data3 changed: ', val); 
+    
+  });
+
+});
